@@ -1,0 +1,45 @@
+header{
+    margin: 18px;
+    .opciones-1{
+        background-color: brown;
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+    .opciones-2{
+        background-color: greenyellow;
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+    .opciones-3{
+        background-color: rgba(250, 248, 248, 0.945);
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+    .opciones-4{
+        background-color: forestgreen;
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+    .opciones-5{
+        background-color: blueviolet;
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+    .opciones-6{
+        background-color: aqua;
+        border-radius: 100%;
+        &:hover{
+            border: solid 8px rgb(88, 82, 82);
+        }
+    }
+}

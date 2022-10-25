@@ -1,0 +1,41 @@
+.procesadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    button{
+        display: flex;
+        margin: 5px;
+        background-color: rgb(235, 227, 227);
+        &:hover{
+            font-size: 30px;
+            border: solid black;
+            background-color: aquamarine;
+        }
+    }
+    .card{
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .marca-titulo{
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    p{
+        &:hover{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    ul{
+        li{
+            &:hover{
+                font-size: 20px;
+            }
+        }
+    }
+}

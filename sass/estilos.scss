@@ -1,0 +1,142 @@
+@import "letras";
+@import "cuadros";
+@import "carrusel";
+body{
+    background-color: darkgray;
+    height: auto;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+}
+main{
+    height: 700px;
+}
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar{
+    border-bottom: solid;
+    border-top: solid;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.parrafo-2{
+    border-bottom: solid;
+    background-color: antiquewhite;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 17px;
+    background-image: linear-gradient(to left, rgb(49, 49, 245) , rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: stretch;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.infom{
+    display: flex;
+    justify-content: flex-start;
+}
+.formulario{
+    width: 300px;
+    height: 340px;
+    border: solid 5px;
+    font-family: 'Orbitron', sans-serif; 
+}
+h5{
+    border-bottom: solid;
+    background-image: linear-gradient(to left, red , yellow);
+    
+}
+.h6{
+    border-top: solid;
+    background-image: linear-gradient(to left, rgb(49, 49, 245) , rgb(175, 173, 173), rgb(49, 49, 255));
+
+}
+.boton{
+    margin: 6px;
+}
+.boton2{
+    display: flex;
+}
+.boton3{
+    position: relative;
+    top: 10px;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: stretch;
+}
+.consulta{
+    width: 100%;
+    height: 100%;
+}
+.card{
+    border: 4px solid black;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 13px;
+}
+.hola{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    margin-left: auto;
+}
+.info-contacto{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding-top: auto;
+}
+@media only screen and (min-width: 992px ){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media only screen and (min-width: 690px ){
+    .formulario{
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 320px ){
+    .flex-container{
+        flex-direction: column;
+        width: 100%;
+    }
+}

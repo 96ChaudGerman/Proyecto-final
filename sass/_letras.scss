@@ -1,0 +1,47 @@
+h1{
+    height: auto;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    background-image: linear-gradient(to left, rgb(23, 136, 0) , rgb(35, 197, 3), rgb(23, 160, 23));
+    margin: 0;
+    text-align: center;
+}
+h2{
+    height: auto;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+    background-image: linear-gradient(to left, rgb(23, 136, 0) , rgb(35, 197, 3), rgb(23, 160, 23));
+    margin: 0;
+}
+footer{
+    border-top: solid;
+    display: flex;
+    height: auto;
+    background-color: rgba(77, 248, 9, 0.733);
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    p{
+        &:hover{
+            color: rgba(7, 4, 184, 0.87);
+            font-size: 18px;
+        }
+    }
+}
+.navbar{
+    &:hover{
+        color: white;
+    }
+}
+.parrafo-1{
+    border-bottom: solid;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    background-color: greenyellow;
+}
+.parrafo-pro{
+    border-bottom: solid black;
+    font-size: 18px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background-color: greenyellow;
+}

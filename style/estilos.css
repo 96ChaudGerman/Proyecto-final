@@ -1,0 +1,285 @@
+h1 {
+  height: auto;
+  font-family: "Orbitron", sans-serif;
+  font-size: 70px;
+  background-image: linear-gradient(to left, rgb(23, 136, 0), rgb(35, 197, 3), rgb(23, 160, 23));
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  height: auto;
+  font-family: "Orbitron", sans-serif;
+  font-size: 70px;
+  background-image: linear-gradient(to left, rgb(23, 136, 0), rgb(35, 197, 3), rgb(23, 160, 23));
+  margin: 0;
+}
+
+footer {
+  border-top: solid;
+  display: flex;
+  height: auto;
+  background-color: rgba(77, 248, 9, 0.733);
+  color: black;
+  font-family: "Orbitron", sans-serif;
+}
+footer p:hover {
+  color: rgba(7, 4, 184, 0.87);
+  font-size: 18px;
+}
+
+.navbar:hover {
+  color: white;
+}
+
+.parrafo-1 {
+  border-bottom: solid;
+  font-family: "Orbitron", sans-serif;
+  font-size: 15px;
+  background-color: greenyellow;
+}
+
+.parrafo-pro {
+  border-bottom: solid black;
+  font-size: 18px;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+header {
+  margin: 18px;
+}
+header .opciones-1 {
+  background-color: brown;
+  border-radius: 100%;
+}
+header .opciones-1:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+header .opciones-2 {
+  background-color: greenyellow;
+  border-radius: 100%;
+}
+header .opciones-2:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+header .opciones-3 {
+  background-color: rgba(250, 248, 248, 0.945);
+  border-radius: 100%;
+}
+header .opciones-3:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+header .opciones-4 {
+  background-color: forestgreen;
+  border-radius: 100%;
+}
+header .opciones-4:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+header .opciones-5 {
+  background-color: blueviolet;
+  border-radius: 100%;
+}
+header .opciones-5:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+header .opciones-6 {
+  background-color: aqua;
+  border-radius: 100%;
+}
+header .opciones-6:hover {
+  border: solid 8px rgb(88, 82, 82);
+}
+
+.procesadores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.procesadores button {
+  display: flex;
+  margin: 5px;
+  background-color: rgb(235, 227, 227);
+}
+.procesadores button:hover {
+  font-size: 30px;
+  border: solid black;
+  background-color: aquamarine;
+}
+.procesadores .card:hover {
+  border: solid 6px greenyellow;
+}
+.procesadores .marca-titulo {
+  text-align: center;
+  font-size: 15px;
+}
+.procesadores p:hover {
+  font-size: 20px;
+  font-weight: 400;
+}
+.procesadores ul li:hover {
+  font-size: 20px;
+}
+
+body {
+  background-color: darkgray;
+  height: auto;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+}
+
+main {
+  height: 700px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+}
+
+h2 {
+  font-family: "Orbitron", sans-serif;
+}
+
+.navbar {
+  border-bottom: solid;
+  border-top: solid;
+  font-family: "Orbitron", sans-serif;
+}
+
+.parrafo-2 {
+  border-bottom: solid;
+  background-color: antiquewhite;
+  font-family: "Orbitron", sans-serif;
+  font-size: 17px;
+  background-image: linear-gradient(to left, rgb(49, 49, 245), rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infom {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formulario {
+  width: 300px;
+  height: 340px;
+  border: solid 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+h5 {
+  border-bottom: solid;
+  background-image: linear-gradient(to left, red, yellow);
+}
+
+.h6 {
+  border-top: solid;
+  background-image: linear-gradient(to left, rgb(49, 49, 245), rgb(175, 173, 173), rgb(49, 49, 255));
+}
+
+.boton {
+  margin: 6px;
+}
+
+.boton2 {
+  display: flex;
+}
+
+.boton3 {
+  position: relative;
+  top: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.consulta {
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  border: 4px solid black;
+  border-radius: 15px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 13px;
+}
+
+.hola {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  margin-left: auto;
+}
+
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding-top: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 690px) {
+  .formulario {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}/*# sourceMappingURL=estilos.css.map */
