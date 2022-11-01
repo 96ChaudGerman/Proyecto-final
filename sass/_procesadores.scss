@@ -38,4 +38,27 @@
             }
         }
     }
+    @media only screen and (max-width: 320px ){
+        .procesadores{
+            display: flex;
+            width: 100%;
+        }
+        .parrafo-pro{
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+.boton-volver{
+    display: flex;
+    margin: 5px;
+    background-color: rgb(235, 227, 227);
+    a{
+        color: black;
+    }
+    &:hover{
+        font-size: 30px;
+        border: solid rgba(255, 255, 255, 0.74);
+        background-color: rgb(115, 119, 115);
+    }
 }

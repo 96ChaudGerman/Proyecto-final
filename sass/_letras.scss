@@ -20,11 +20,18 @@ footer{
     background-color: rgba(77, 248, 9, 0.733);
     color: black;
     font-family: 'Orbitron', sans-serif;
+    a{
+        color: black;
+    }
     p{
         &:hover{
             color: rgba(7, 4, 184, 0.87);
             font-size: 18px;
         }
+    }
+    img{
+        display: flex;
+        
     }
 }
 .navbar{

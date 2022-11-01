@@ -1,0 +1,136 @@
+.grid-2{
+    .logo-motorola{
+        background-color: white;
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-samsung{
+        background-color: darkcyan;
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-huawei{
+        background-color: rgb(205, 234, 241);
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-xiaomi{
+        background-color: darkgoldenrod;
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-lenovo{
+        background-color: beige;
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-hp{
+        background-color: beige;
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .logo-samsung-1{
+        border-radius: 100%;
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+}
+.celulares{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    padding-top: 10px;
+    button{
+        display: flex;
+        margin: 5px;
+        background-color: rgb(235, 227, 227);
+        &:hover{
+            font-size: 30px;
+            border: solid black;
+            background-color: rgb(241, 16, 16);
+        }
+    }
+    .card{
+        &:hover{
+            border: solid 6px greenyellow;
+        }
+    }
+    .marca-titulo{
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    p{
+        &:hover{
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    ul{
+        li{
+            &:hover{
+                font-size: 20px;
+            }
+        }
+    }
+    @media only screen and (max-width: 320px ){
+        .procesadores{
+            display: flex;
+            width: 100%;
+        }
+        .parrafo-pro{
+            display: flex;
+            width: 100%;
+        }
+    }
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+    button{
+        display: flex;
+        margin: 5px;
+        background-color: rgb(235, 227, 227);
+        a{
+            color: black;
+        }
+        &:hover{
+            font-size: 30px;
+            border: solid black;
+            background-color: rgb(241, 16, 16);
+        }
+    }
+    .boton-volver{
+        display: flex;
+        margin: 5px;
+        background-color: rgb(235, 227, 227);
+        a{
+            color: black;
+        }
+        &:hover{
+            font-size: 30px;
+            border: solid rgba(255, 255, 255, 0.74);
+            background-color: rgb(115, 119, 115);
+        }
+    }
+}

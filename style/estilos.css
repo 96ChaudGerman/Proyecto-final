@@ -23,9 +23,15 @@ footer {
   color: black;
   font-family: "Orbitron", sans-serif;
 }
+footer a {
+  color: black;
+}
 footer p:hover {
   color: rgba(7, 4, 184, 0.87);
   font-size: 18px;
+}
+footer img {
+  display: flex;
 }
 
 .navbar:hover {
@@ -125,6 +131,158 @@ header .opciones-6:hover {
 .procesadores ul li:hover {
   font-size: 20px;
 }
+@media only screen and (max-width: 320px) {
+  .procesadores .procesadores {
+    display: flex;
+    width: 100%;
+  }
+  .procesadores .parrafo-pro {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.boton-volver {
+  display: flex;
+  margin: 5px;
+  background-color: rgb(235, 227, 227);
+}
+.boton-volver a {
+  color: black;
+}
+.boton-volver:hover {
+  font-size: 30px;
+  border: solid rgba(255, 255, 255, 0.74);
+  background-color: rgb(115, 119, 115);
+}
+
+.grid-2 .logo-motorola {
+  background-color: white;
+  border-radius: 100%;
+}
+.grid-2 .logo-motorola:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-samsung {
+  background-color: darkcyan;
+  border-radius: 100%;
+}
+.grid-2 .logo-samsung:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-huawei {
+  background-color: rgb(205, 234, 241);
+  border-radius: 100%;
+}
+.grid-2 .logo-huawei:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-xiaomi {
+  background-color: darkgoldenrod;
+  border-radius: 100%;
+}
+.grid-2 .logo-xiaomi:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-lenovo {
+  background-color: beige;
+  border-radius: 100%;
+}
+.grid-2 .logo-lenovo:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-hp {
+  background-color: beige;
+  border-radius: 100%;
+}
+.grid-2 .logo-hp:hover {
+  border: solid 6px greenyellow;
+}
+.grid-2 .logo-samsung-1 {
+  border-radius: 100%;
+}
+.grid-2 .logo-samsung-1:hover {
+  border: solid 6px greenyellow;
+}
+
+.celulares {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+  padding-top: 10px;
+}
+.celulares button {
+  display: flex;
+  margin: 5px;
+  background-color: rgb(235, 227, 227);
+}
+.celulares button:hover {
+  font-size: 30px;
+  border: solid black;
+  background-color: rgb(241, 16, 16);
+}
+.celulares .card:hover {
+  border: solid 6px greenyellow;
+}
+.celulares .marca-titulo {
+  text-align: center;
+  font-size: 15px;
+}
+.celulares p:hover {
+  font-size: 20px;
+  font-weight: 400;
+}
+.celulares ul li:hover {
+  font-size: 20px;
+}
+@media only screen and (max-width: 320px) {
+  .celulares .procesadores {
+    display: flex;
+    width: 100%;
+  }
+  .celulares .parrafo-pro {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.flex-container button {
+  display: flex;
+  margin: 5px;
+  background-color: rgb(235, 227, 227);
+}
+.flex-container button a {
+  color: black;
+}
+.flex-container button:hover {
+  font-size: 30px;
+  border: solid black;
+  background-color: rgb(241, 16, 16);
+}
+.flex-container .boton-volver {
+  display: flex;
+  margin: 5px;
+  background-color: rgb(235, 227, 227);
+}
+.flex-container .boton-volver a {
+  color: black;
+}
+.flex-container .boton-volver:hover {
+  font-size: 30px;
+  border: solid rgba(255, 255, 255, 0.74);
+  background-color: rgb(115, 119, 115);
+}
 
 body {
   background-color: darkgray;
@@ -171,13 +329,14 @@ h2 {
   align-content: stretch;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-between;
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  justify-content: space-around;
+  justify-items: center;
   align-items: center;
+  align-content: stretch;
 }
 
 .infom {

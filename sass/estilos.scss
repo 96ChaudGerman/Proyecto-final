@@ -1,6 +1,7 @@
 @import "letras";
 @import "cuadros";
-@import "carrusel";
+@import "procesadores";
+@import "celulares";
 body{
     background-color: darkgray;
     height: auto;
@@ -41,13 +42,14 @@ h2{
     align-items: center;
     align-content: stretch;
 }
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    justify-content: space-around;
+    justify-items: center;
     align-items: center;
+    align-content: stretch;
 }
 .infom{
     display: flex;
